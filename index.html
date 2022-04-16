@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="historyContainer">
+			<p style="font-size:36px">History</p>
+			<div id="history">
+			</div>
+			<button id="deleteHistory">Distroy History</button>
+		</div>
+
+		<div class="main">
+			<div class="output">
+				<div id="steps">
+				</div>
+			</div>
+
+			<div class="calBody" id="calBody">
+				<!-- removed the calbutton classes as you can target this in css without this : so just remove the junk -->
+
+				<!-- fixed typo : <buttona> -->
+				<button id="redo">Redo</button>
+				<button id="deleteAll">ac</button>
+				<button id="backOne">ce</button>
+				<button id="/">/</button>
+				<br>
+				<button id="7">7</button>
+				<button id="8">8</button>
+				<button id="9">9</button>
+				<button id="*">x</button>
+				<br>
+				<button id="4">4</button>
+				<button id="5">5</button>
+				<button id="6">6</button>
+				<button id="-">-</button>
+				<br>
+				<button id="1">1</button>
+				<button id="2">2</button>
+				<button id="3">3</button>
+				<button id="+">+</button>
+				<br>
+				<button id="undo">Undo</button>
+				<button id="0">0</button>
+				<button id=".">.</button>
+				<button id="total">=</button>
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
